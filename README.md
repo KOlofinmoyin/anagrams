@@ -1,5 +1,5 @@
 # ANAGRAMS
-What is an anagram? Well, two words are anagrams of each other if they both contain the same letters. 
+What is an anagram? Well, two words are anagrams of each other if they both contain the same letters.
 
 ### For example:
 ```
@@ -22,4 +22,15 @@ anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']) => ['aabb', 'bbaa']
 anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']) => ['carer', 'racer']
 
 anagrams('laser', ['lazing', 'lazy',  'lacer']) => []
+```
+
+```
+INPUT                                     |                      OUTPUT
+=============================================================================
+('a',['a'])                               |                      ['a','a']
+('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']   |    ['carer', 'racer']
+("ab", ["ab","ba"])                       |                      ["ab", "ba"]
+('aabb', ['aabb','abcd', 'bbaa', 'dada']) |                     ["aabb", "bbaa"]
+('laser', ['lazing', 'lazy',  'lacer'])   |                      []
+
 ```
