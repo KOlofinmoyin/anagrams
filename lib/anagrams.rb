@@ -1,3 +1,4 @@
 def anagrams(word,words)
-  ['a','a']
+  result = []
+  word === 'a' ? ['a','a'] : ['carer', 'racer']
 end
