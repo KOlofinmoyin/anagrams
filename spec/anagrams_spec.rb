@@ -16,4 +16,9 @@ describe '#anagrams' do
   it "takes ('aabb', ['aabb','abcd', 'bbaa', 'dada'] and returns ['aabb', 'bbaa']" do
     expect(anagrams('aabb', ['aabb','abcd', 'bbaa', 'dada'])).to eq(['aabb','bbaa'])
   end
+
+  it "takes ('laser', ['lazing', 'lazy',  'lacer']) and returns []" do
+    expect(anagrams('laser', ['lazing', 'lazy','lacer'])).to eq([])
+  end
+
 end
