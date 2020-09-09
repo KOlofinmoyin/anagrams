@@ -9,8 +9,11 @@ describe '#anagrams' do
     expect(anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer'])).to eq(['carer', 'racer'])
   end
 
-
   it "takes ('ab', ['ab','ba'] and returns ['ab', 'ba']" do
     expect(anagrams('ab', ['ab','ba'])).to eq(['ab', 'ba'])
+  end
+
+  it "takes ('aabb', ['aabb','abcd', 'bbaa', 'dada'] and returns ['aabb', 'bbaa']" do
+    expect(anagrams('aabb', ['aabb','abcd', 'bbaa', 'dada'])).to eq(['aabb','bbaa'])
   end
 end

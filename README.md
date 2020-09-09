@@ -29,7 +29,7 @@ INPUT                                     |                      OUTPUT
 =============================================================================
 (done)('a',['a'])                               |                      ['a']
 (done)('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']   |    ['carer', 'racer']
-("ab", ["ab","ba"])                       |                      ["ab", "ba"]
+(done)("ab", ["ab","ba"])                       |                      ["ab", "ba"]
 ('aabb', ['aabb','abcd', 'bbaa', 'dada']) |                     ["aabb", "bbaa"]
 ('laser', ['lazing', 'lazy',  'lacer'])   |                      []
 
