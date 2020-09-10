@@ -31,6 +31,6 @@ INPUT                                     |                      OUTPUT
 (done)('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']   |    ['carer', 'racer']
 (done)("ab", ["ab","ba"])                       |                      ["ab", "ba"]
 (done)('aabb', ['aabb','abcd', 'bbaa', 'dada']) |                     ["aabb", "bbaa"]
-('laser', ['lazing', 'lazy',  'lacer'])   |                      []
+(done)('laser', ['lazing', 'lazy',  'lacer'])   |                      []
 
 ```
